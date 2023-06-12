@@ -68,6 +68,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./apps/cje/",\
           "packageDependencies": [\
             ["@cje/web", "workspace:apps/cje"],\
+            ["@cje/lib", "workspace:packages/lib"],\
             ["@types/node", "npm:20.3.0"],\
             ["@types/react", "npm:18.2.11"],\
             ["@types/react-dom", "npm:18.2.4"],\
