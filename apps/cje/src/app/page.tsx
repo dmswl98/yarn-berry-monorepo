@@ -11,6 +11,7 @@ export default function Home() {
           Get started by editing&nbsp;
           <code className={styles.code}>src/app/page.tsx</code>
         </p>
+        <div>배포 테스트</div>
         <div>
           <p>@cje/lib 의존성 테스트</p>
           <code>{sayHello()}</code>
