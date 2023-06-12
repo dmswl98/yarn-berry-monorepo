@@ -1,4 +1,5 @@
 import { sayHello } from '@cje/lib';
+import { Button } from '@cje/ui';
 import Image from 'next/image';
 import styles from './page.module.css';
 
@@ -13,6 +14,7 @@ export default function Home() {
         <div>
           <p>@cje/lib 의존성 테스트</p>
           <code>{sayHello()}</code>
+          <Button>Hello from @cje/ui</Button>
         </div>
         <div>
           <a
