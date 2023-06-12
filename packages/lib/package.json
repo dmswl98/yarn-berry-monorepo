@@ -2,6 +2,9 @@
   "name": "@cje/lib",
   "main": "./src/index.ts",
   "packageManager": "yarn@3.6.0",
+  "scripts": {
+    "typecheck": "tsc --project ./tsconfig.json --noEmit"
+  },
   "dependencies": {
     "typescript": "^5.1.3"
   }

@@ -14,7 +14,7 @@ export default function Home() {
         <div>
           <p>@cje/lib 의존성 테스트</p>
           <code>{sayHello()}</code>
-          <Button>Hello from @cje/ui</Button>
+          <Button variant="contained">Hello from @cje/ui</Button>
         </div>
         <div>
           <a
